@@ -143,7 +143,6 @@
 		font-size: 10px;
 		position: absolute;
 		right: 0;
-		top: 2.3rem;
 		display: none;
 	}
 	.table .prompt-box{
@@ -164,6 +163,9 @@
 	#promptr{
 		display: block;
 		top:2.44rem;
+	}
+	#promptl{
+		top:1.68rem;
 	}
 	/*疑难杂症*/
 	input::-webkit-input-placeholder{
