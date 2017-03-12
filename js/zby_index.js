@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 // 导航开始
     var qubtn=document.querySelector('.zby_quxiao');
     var rest=document.querySelector('.zby_rest');
@@ -44,24 +42,24 @@ $(document).ready(function() {
     Dbox[0].style.display="block";
     // cc(Btn[0])
     var a=Btn[0].getElementsByTagName('a')
-   console.log(Btn[0].innerText) 
-
-      var chu=function chu(){
-        var swiper= new Swiper('.swiper-container',{
-            pagination: '.swiper-pagination',
-            paginationClickable: true
-        })
-    } 
-    chu()
+    // ---------------------------------------------------
+    var swiperA= new Swiper('.swiper-container1',{
+        observer:true,
+        observeParents:true,
+        pagination: '.swiper-p1',
+        paginationClickable: true
+    })
+    var swiperB= new Swiper('.swiper-container2',{
+        observer:true,
+        observeParents:true,
+        pagination: '.swiper-p2',
+        paginationClickable: true
+    })
+    // ---------------------------------------------------
     Title.innerHTML=Btn[0].innerHTML
-
     for(var i=0;i<Btn.length;i++){
         Btn[i].index=i;
         Btn[i].addEventListener('touchstart',function(){
-
-            // chu()=null;
-            // console.log(chu)
-            chu=null;
             for(var j=0;j<Btn.length;j++){
                 Btn[j].classList.remove('zby-hot')
                 Dbox[j].style.display="none";
@@ -69,52 +67,8 @@ $(document).ready(function() {
             this.classList.add('zby-hot')
             Dbox[this.index].style.display="block";
             Title.innerHTML=this.innerHTML
-          
-            console.log(this.index)
-           
-             // app=null
-               cc(this.index);
-        })
-        
-    }
-
-    function cc(i){
-        if(i==0){
-                        
-            aa()
-                         
-        }else if(i==2){
-            bb()
-                          
-
-             }   
-    }
-
-//底部选项卡结束
-var num=0
-function aa(){
-    num++
-    var swiper= new Swiper('.swiper-container',{
-        pagination: '.swiper-pagination',
-        paginationClickable: true
-    });
-    console.log("aa这是第"+num+"");
-}
-var fum=0
-
-function bb(){
-    fum++
-    var swiper2 = new Swiper('.swiper-container2',{
-            pagination: '.swiper-pagination2',
-            paginationClickable: true
-    });
-     console.log("bb这是第"+fum+"");
-}
-     
-        
-}) 
-
-
+        })  
+    }     
 // 提示闪屏页
 var tu=document.querySelector('#py-tu');
     var zhe=document.querySelector('.zhe');
