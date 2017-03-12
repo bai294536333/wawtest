@@ -1,0 +1,34 @@
+@import url(base.css);
+
+/*遮罩*/
+html,body{
+	/*width: 100%;
+	height: 100%;*/
+	/*overflow: hidden;*/
+}
+.zhe,.erzhe{
+	width: 100%;
+	height: 100%;
+	background:#000;
+	position: fixed;
+	top:-0.24rem;
+	left:0;
+	opacity: .8;
+	z-index: 99999999999;
+}
+.zhe img,.erzhe img{
+	width: 100%;
+	height: 100%;
+}
+	@media only screen and (max-width: 375px){
+		.zhe{
+		width: 100%;
+		height: 100%;
+		background:#000;
+		position: fixed;
+		top:0;
+		left:0;
+		opacity: .8;
+		z-index: 99999999999;
+	}
+}

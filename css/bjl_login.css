@@ -1,0 +1,178 @@
+---------------------------------------*/
+/*基本*/
+	body{
+		background: #F8FFF9;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		font-size: 16px;
+		font-family: '苹方';
+	}
+	a{
+		font-family: '苹方';
+	}
+/*---------------------------------------*/
+/*LOGO*/
+	.logo{
+		width: 2.5rem;
+		height: 1.8rem;
+		margin: 1.6rem auto;
+	}
+	.logo img{
+		width: 100%;
+	}
+/*---------------------------------------*/
+/*登陆框*/
+	.login_box{
+		width: 4.74rem;
+		height: 4.9rem;
+		margin: 0 auto;
+	}
+	.login_box .head{
+		width:100%;
+		height: .7rem;
+		border-bottom :1px solid #E5E5E5; 
+		box-sizing:border-box;
+		font-size: 14px;
+	}
+	.login_box .head div{
+		width:1.7rem;
+		height: .7rem;
+		text-align: center;
+		line-height: .7rem;
+		color: #525252;
+		box-sizing:border-box;
+	}
+	.login_box .head .login{
+		float: left;
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.login_box .head .register{
+		float: right;
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.login_box .head .active{
+		border-bottom :2px solid #3c3c3c; 
+	}
+	.table{
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		position: relative;
+	}
+	.table .user{
+		width: 100%;
+		height: .8rem;
+		overflow: hidden;
+		border-bottom:1px solid #E5E5E5;
+		padding-top:.3rem;  
+	}
+	.table .user input{
+		width: 100%;
+		height: 100%;
+		border: none;
+		outline: none;
+		font-size: 14px; 
+		line-height: 0.76rem;
+		color: #525252;
+		font-family: '苹方';
+		opacity: 1;
+	}
+	.table .password{
+		width: 100%;
+		height: .8rem;
+		overflow: hidden;
+		border-bottom:1px solid #E5E5E5;
+		padding-top:.3rem; 
+	}
+	.table .password input{
+		width: 100%;
+		height: 100%;
+		border: none;
+		outline: none;
+		font-size: 14px;  
+		line-height: 0.76rem;
+		color: #525252;
+		font-family: '苹方';
+	}
+	/*提交*/
+	.table .submit{
+		width: 4.74rem;
+		height: .78rem;
+		margin-top: .6rem;
+	}
+	.table .submit input{
+		width: 4.74rem;
+		height: .78rem;
+		border: none;
+		outline: none;
+		border-radius: 8px;
+		background: #1D1D1D;
+		font-size:16px;
+		letter-spacing:8px;
+		color: #F8FFF9;
+		font-weight: 300;
+	}
+	#submit{
+		font-size:14px;
+		letter-spacing:2px;
+	}
+	.table .helpme{
+		width: 4.74rem;
+		height: .6rem;
+		text-align: right;
+		line-height: .6rem;
+	}
+	.table .helpme a{
+		font-size: 14px;
+		color: #6F7270;
+		font-family: '苹方';
+	}
+	/*提示信息*/
+	.table .prompt{
+		width: 4.74rem;
+		height: .4rem;
+		text-align: right;
+		line-height: .4rem;
+		color: #F65352;
+		font-size: 10px;
+		position: absolute;
+		right: 0;
+		top: 2.3rem;
+		display: none;
+	}
+	.table .prompt-box{
+		width: 2rem;
+		height: .78rem;
+		text-align: center;
+		line-height: .78rem;
+		color: #F8FFF9;
+		font-size:13px;
+		position: absolute;
+		right: 0;
+		top: 1.44rem;
+		background: #1D1D1D;
+		font-family: '苹方';
+		font-weight: 300;
+		border-radius: 8px;
+	}
+	#promptr{
+		display: block;
+		top:3.4rem;
+	}
+	/*疑难杂症*/
+	input::-webkit-input-placeholder{
+	 color: #D3D3D3; 
+	} 
+	input:-moz-placeholder{
+	 color: #D3D3D3; 
+	} 
+	input::-moz-placeholder{
+	 color: #D3D3D3; 
+	} 
+	input:-ms-input-placeholder{
+	 color: #D3D3D3; 
+	} 
+/*---------------------------------------

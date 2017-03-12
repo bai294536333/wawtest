@@ -1,0 +1,348 @@
+
+@import "base.css";
+body,html{
+    font-family: "苹方";
+    height: 100%;
+    overflow: hidden;
+    /*overflow: auto;*/
+}
+/*.lys_max_box{
+    width: 7.5rem;
+    height: 13.34rem;
+    overflow: hidden !important;
+}*/
+.lys_query{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.lys_top{
+    width: 100%;
+    padding: 0 0.4rem;
+    height: 0.99rem;
+    border-bottom: 1px solid #E8E8E8;
+    font-size: 16px;
+    text-align: center;
+}
+.lys_back{
+    text-align: left;
+    line-height: 0.99rem;
+    float: left;
+}
+.lys_top span{
+    line-height: 1rem;
+    font-weight: bold;
+}
+.lys_section{
+    width: 100%;
+    height: auto;
+    padding: 0 0.4rem;
+}
+.lys_grlis{
+    border-bottom: 1px solid #e8e8e8;
+    height: 0.85rem;
+}
+
+.lys_bw{
+    height: 1.59rem;
+    width: 100%;
+
+}
+.lys_bw_xxl{
+    border-bottom: none;
+}
+.lys_grA{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.lys_s1{
+    text-align: left;
+    line-height: 1.6rem;
+    font-size: 16px;
+    color: #919191;
+    font-weight: bolder;
+}
+.lys_z1{
+    text-align: left;
+    line-height: 0.85rem;
+    font-size: 16px;
+    color: #919191;
+}
+.lys_s2{
+    display: block;
+    width: 1.15rem;
+    height: 1.15rem;
+    border-radius: 50%;
+    float: right;
+    margin-top: 0.15rem;
+}
+.lys_szleft{
+    float: left;
+}
+.lys_szleft2{
+    display: block;
+    float: left;
+    font-weight: bolder;
+    color: #000;
+    line-height: 0.9rem;
+    margin-left: 0.13rem;
+}
+.lys_szleft2 p{
+    font-weight: normal;
+    line-height: 0.2rem;
+}
+.lys_szright{
+    float: right;
+    line-height: 1.5rem;
+}
+.lys_z2{
+    display: block;
+    float: right;
+    text-align: right;
+    line-height: 0.85rem;
+    font-size: 16px;
+    color: #919191;
+}
+.lys_mask{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(76,76,76,0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.lys_ncbox{
+    width: 6.35rem;
+    padding-bottom: 0.2rem;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 2.1rem;
+}
+.lys_ncbox span{
+    margin-left: 0.35rem;
+    color: red;
+    opacity: 0;
+    /*display: none;*/
+}
+.lys_bjnc{
+    height: 1.34rem;
+    width: 100%;
+    line-height: 1.34rem;
+    text-align: center;
+}
+.lys_nctext{
+    display: block;
+    width: 5.58rem;
+    height: 0.88rem;
+    border: 1px solid #e8e8e8;
+    margin: 0 auto;
+    padding-left: 0.1rem;
+    font-size: 12px;
+}
+.lys_xuanz{
+    width: 5.6rem;
+    height: 0.9rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.lys_xuanz input{
+    display: block;
+    width: 2.64rem;
+    height: 0.88rem;
+    border: 1px solid #e8e8e8;
+    text-align: center;
+    line-height: 0.88rem;
+    background-color: #fff;
+}
+.lys_qx{
+    float: left;
+}
+.lys_qd{
+    float: right;
+}
+.lys_txmask{
+    display: block;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(76,76,76,0.8);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.lys_txul{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    transform: translateY(100%);
+}
+.lys_txlis{
+    width: 100%;
+    height: 1.14rem;
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #A2A2A2;
+    text-align: center;
+    line-height: 1.14rem;
+}
+.lys_txlis a{
+    color: #000;
+}
+.lys_txlis:nth-child(3){
+    border-bottom: none;
+}
+.lys_txlis:last-child{
+    margin-top: 0.2rem;
+    border-bottom: none;
+    color: #3D3D3D;
+}
+.lys_tcdl{
+    display: block;
+    width: 3.98rem;
+    height: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    margin: 0 auto;
+    margin-top: 0.45rem;
+    text-align: center;
+    line-height: 0.8rem;
+     color: #000;
+}
+.lys_bjwb{
+    width: 6.70rem;
+    height: 8.85rem;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 0.25rem;
+    padding: 0.35rem;
+}
+.lys_bjnei{
+    width: 100%;
+    padding-top: 0.4rem;
+    height: 7.35rem;
+    resize: none;
+}
+.lys_bjwb .lys_txt{
+    float:right;
+   color: #9f9f9f;
+}
+.lys_tmax{
+     float:left;
+   color: red;
+}
+.lys_bjsub{
+    display: block;
+    width: 5.57rem;
+    height: 0.8rem;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 0.8rem;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+/*个人中心*/
+.lys_szionc{
+    float: right;
+    line-height: 0.99rem;
+    font-size: 22px;
+}
+.lys_szlist{
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #e8e8e8;
+}
+.lys_szlist ul li{
+    width: 7rem;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.lys_sz_del{
+    display: block;
+    width: 1.3rem;
+    height: 1.84rem;
+    float: left;
+    margin-top: 0.25rem;
+    background-color: #0085d0;
+    margin-top: 0.52rem;
+    text-align: center;
+    line-height: 1.84rem;
+    font-size: 32px;
+    background-color: #dfdfdf;
+    color: #181818;
+}
+.lys_sz_lefts{
+    width: 7rem;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+    float: left;
+}
+.lys_sz_box{
+    display: block;
+    width: 8.3rem;
+    padding: 0.3rem 0rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+.lys_sz_zuo{
+    display: block;
+    width: 3.26rem;
+    /*width: 3.22rem;*/
+    float: left;
+    height: 1.82rem;
+    margin-top: 0.25rem;
+}
+.lys_sz_pp{
+    width: 3.2rem;
+    height: auto;
+    color: #000;
+    font-size: 14px;
+    line-height: 0.4rem;
+    -webkit-line-clamp:2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lys_sz_p2{
+     width: 3.2rem;
+    /* height: 0.9rem; */
+    color: #626262;
+    font-size: 12px;
+    margin-top: 0.1rem;
+    line-height: 0.38rem;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.lys_sz_you{
+    display: block;
+    float: right;
+    width: 3.28rem;
+    height: 1.84rem;
+    margin-top: 0.25rem;
+    background-color: #0085d0;
+}
+
+.lys_sz_you img{
+    width: 100%;
+    height: 100%;
+}
+.lys_sz_time{
+    color: #626262;
+    font-size: 12px;
+}
+
+

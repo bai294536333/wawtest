@@ -1,0 +1,263 @@
+@import "base.css";
+
+
+header{
+    width: 100%;
+    height:0.9rem;
+}
+header h2{
+    font-size:18px;
+    line-height: 0.9rem;
+    text-align: center;
+    font-weight:500;
+}
+.hmf-banner{
+    width: 100%;
+    height: 3.4rem;
+    overflow: hidden;
+}
+.hmf-wud{
+    margin:0.4rem 0;
+    width: 100%;
+    text-align: center;
+}
+.hmf-wud h2{
+   font-size: 14px;
+    font-weight: 600;
+    margin-bottom:0.26rem;
+
+}
+.hmf-wud .hmf-connet{
+    box-sizing: border-box;
+    padding: 0 0.5rem;
+    font-size: 12px;
+    /*font-weight: 300;*/
+    line-height: 18px;
+    color: #4E4F4F;
+}
+.hmf-wud span{
+    display: block;
+    width: 1.8rem;
+    height: 1px;
+    background:#B6B6B6;
+    margin:5px auto;
+}
+.hmf-wud .hmf-time{
+    color: #B6B6B6;
+    font-size: 12px;
+
+}
+.hmf-one{
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 0.4rem;
+}
+.hmf-one h2{
+    font-size:14px;
+
+}
+.hmf-one h4{
+    font-size:12px;
+    font-weight: 600;
+}
+.hmf-one h6{
+    font-size: 10px;
+    color: #949494;
+    font-weight: 300;
+    margin:0.3rem 0;
+}
+.hmf-one p{
+    font-size: 12px;
+    margin-bottom: 0.4rem;
+}
+.hmf-sui{
+    box-sizing: border-box;
+    padding: 0 0.4rem;
+    text-align: right;
+    margin-top:0.2rem;
+    margin-bottom:0.5rem;
+
+}
+
+.hmf-sui p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.hmf-sui span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #949494;
+
+}
+.hmf-chang{
+    width: 100%;
+    padding:0 0.4rem;
+    margin-bottom:0.5rem;
+    box-sizing: border-box;
+}
+.hmf-chang h2{
+    margin-bottom:0.24rem;
+    font-size: 14px;
+
+}
+.hmf-chang p{
+    font-size: 12px;
+    color: #616161;
+    line-height: 18px;
+}
+
+/*点赞*/
+.hmf-zan{
+    width: 100%;
+    height: 2.3rem;
+    padding:0.1rem 0.4rem;
+    box-sizing: border-box;
+    border-top:1px solid #E7E7E7;
+    border-bottom:1px solid #E7E7E7;
+}
+
+.hmf-yuan{
+    display: block;
+    float: left;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.hmf-pinl{
+    width:100%;
+    padding:0 0.4rem;
+    box-sizing: border-box;
+
+}
+.hmf-pinl .hmf-kuai{
+    width: 100%;
+    /*height: 2.6rem;*/
+    border-bottom:1px solid #E8E8E8;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:0.2rem 0;
+
+
+}
+.hmf-kuai .hk-left{
+    align-items: flex-start;
+    width:1.5rem;
+    height: 1.2rem;
+    box-sizing: border-box;
+    /*padding:0.15rem 0;*/
+    flex-grow:0;
+}
+.hm-head{
+    height: 0.9rem;
+    line-height: 0.9rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+.hmf-pinl h2{
+    font-size: 16px;
+    margin-bottom:0.1rem;
+    color: #000;
+}
+.hmf-pinl .hk-right p{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+}
+.hmf-pinl .hf-con{
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.hmf-logyu{
+    display: block;
+    height: 0.45rem;
+    width: 0.45rem;
+    margin-right:0.1rem;
+    float: left;
+
+}
+.hmf-dilog{
+    display: block;
+    height: 0.45rem;
+    width: 0.45rem;
+    margin-right:0.2rem;
+    float: left;
+
+}
+.hmf-peitu{
+    width: 100%;
+    height:0.4rem;
+
+    display: flex;
+}
+.hmf-peitu a{
+    margin-right:0.15rem;
+}
+.hmf-di{
+    width: 100%;
+    height:0.6rem;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.hmt-top{
+    width: 100%;
+    height: 1.4rem;
+
+    display: flex;
+    align-items: center;
+}
+.pingk{
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 0.4rem;
+    height: 0.8rem;
+    border-top:1px solid #DADBDB;
+    background: #E8E8E8;
+    display: flex;
+    align-items: center;
+}
+.pingk .shur{
+    width: 80%;
+    height: 0.6rem;
+    border:1px solid #DADBDB;
+    border-radius: 5px;
+    padding-left:0.2rem;
+    font-size: 14px;
+    line-height: 0.6rem;
+}
+.pingk .fas{
+    background: #E8E8E8;
+    width: 20%;
+    line-height:0.8rem;
+    text-align: center;
+}
+
+
+/*评论*/
+.hmf-back{
+    width:0.5rem;
+    height: 0.5rem;
+    float: left;
+    line-height: 0.9rem;
+    position:absolute;
+    left:0.4rem;
+    top:0.15rem;
+
+
+}
+.hmf-tit{
+    width: 100%;
+    box-sizing: border-box;
+    padding:0.1rem 0.4rem;
+    text-align: center;
+    position: relative;
+
+}
+/*评论头部*/

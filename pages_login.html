@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 手机端视口meta标签 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- 去除默认样式 -->
+	<link rel="stylesheet" href="css/base.css">
+	<!-- REM JS -->
+	<script src='js/rem.js'></script>
+	<!-- 自定义CSS -->
+	<link rel="stylesheet" href="css/bjl_login.css">
+</head>
+<body>
+	<!-- LOGO -->
+	<div class="logo">
+		<img src="image/bjl_logo.png" alt="">
+	</div>
+	<!-- 登陆框 -->
+	<div class="login_box">
+		<div class="head">
+			<div class="login active">登陆</div>
+			<div class="register">注册</div>
+		</div>
+		<div class="table">
+			<form action="" method="get">
+				<div class="user">
+					<input type="text" name="user" placeholder='手机号码' id="userl">
+				</div>
+				<div class="password">
+					<input type="password" name="pwd" placeholder='填写密码' id="pwdl">
+				</div>
+				<div class="prompt" id="promptl">
+					提示信息
+				</div>
+				<div class="submit">
+					<input type="button" value="登陆" id="submitl">
+				</div>
+				<div class="helpme">
+					<a href="#">忘记密码</a>
+				</div>
+			</form>
+		</div>
+		<div class="table">
+			<form action="" method="get">
+				<div class="user">
+					<input type="text" name="user" placeholder='手机号码' id="userr">
+				</div>
+				<div class="user">
+					<input type="text" name="test" placeholder='点击右侧获取验证码' id="testr">
+				</div>
+				<div class="password">
+					<input type="password" name="pwdr" placeholder='填写密码(6位数字)' id="pwdr">
+				</div>
+				<div class="prompt" id="promptr">
+					注册提示信息
+				</div>
+				<div class="prompt-box">
+					获取验证码
+				</div>
+				<div class="submit register">
+					<input type="button" value="注册并登陆" id="submitr">
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- zepto -->
+	<script src='js/ajax.js'></script>
+    <!-- 自定义 JS -->
+    <script src='js/bjl_login.js'></script>
+</body>
+</html>
